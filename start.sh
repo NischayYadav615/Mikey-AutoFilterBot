@@ -4,7 +4,7 @@ then
   git clone https://github.com/Matrixswagg/Mikey-AutoFilterBot
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Mikey-AutoFilterBot
+  git clone $UPSTREAM_REPO /Elsa
 fi
 cd /Elsa
 pip3 install -U -r requirements.txt
