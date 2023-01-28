@@ -8,5 +8,5 @@ else
 fi
 cd /Mikey-AutoFilterBot
 pip3 install -U -r requirements.txt
-echo "𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜 𝙀𝙡𝙨𝙖....🧞‍♂️"
+echo "𝙎𝙏𝘼𝙍𝙏𝙄𝙉𝙂 𝙈𝙄𝙆𝙀𝙔...😎"
 python3 bot.py
