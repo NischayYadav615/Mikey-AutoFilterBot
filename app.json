@@ -1,7 +1,7 @@
 {
-    "name": "Mikey Bot",
+    "name": "Elsa Bot",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
-    "logo": "https://graph.org/file/7bbe25f0685bf8ffa0fdd.jpg",
+    "logo": "https://telegra.ph/file/d9f242d81ef69cc8a1ec5.jpg",
     "stack": "container",
     "keywords": [
       "telegram",
@@ -16,8 +16,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Matrixswagg/Mikey-AutoFilterBot",
-    "repository": "https://github.com/Matrixswagg/Mikey-AutoFilterBot",
+    "website": "https://github.com/Devil-Botz/Elsa",
+    "repository": "https://github.com/Devil-Botz/Elsa",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -84,7 +84,7 @@
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "eco"
+            "size": "free"
         }
     }
 }
