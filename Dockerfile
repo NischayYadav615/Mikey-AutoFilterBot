@@ -1,12 +1,12 @@
-if [ -z $UPSTREAM_REPO ]
-then
-  echo "Cloning main Repository"
-  git clone https://github.com/Matrixswagg/Mikey-AutoFilterBot /Mikey-AutoFilterBot
-else
-  echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Elsa
-fi
-cd /Mikey-AutoFilterBot
-pip3 install -U -r requirements.txt
-echo "𝙎𝙩𝙖𝙧𝙩𝙞𝙣𝙜 𝙀𝙡𝙨𝙖....🧞‍♂️"
-python3 bot.py
+FROM python:3.10
+
+RUN apt update && apt upgrade -y
+RUN apt install git -y
+COPY requirements.txt /requirements.txt
+
+RUN cd /
+RUN pip3 install -U pip && pip3 install -U -r requirements.txt
+RUN mkdir /Elsa
+WORKDIR /Elsa
+COPY start.sh /start.sh
+CMD ["/bin/bash", "/start.sh"]
