@@ -306,11 +306,16 @@ Name - {}
 ▫️<a href=https://t.me/cinema_flix123> sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ </a>
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>"""
 
-    RESTART_TXT = """
-<b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
-📅 Dᴀᴛᴇ : <code>{}</code>
-⏰Tɪᴍᴇ : <code>{}</code>
-🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code></b>"""
+    RESTART_TXT = """<b>
+╭•━━❰Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !❱━━━〄
+┃
+┣➣ 📅 Dᴀᴛᴇ : <code>{}</code> 
+┃
+┣➣ ⏰Tɪᴍᴇ : <code>{}</code}
+┃
+┣➣ 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code></code>
+┃
+╰•━━━━━━━━━━━━━━━〄</b>"""
 
     MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️"""
 
